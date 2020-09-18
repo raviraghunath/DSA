@@ -6,7 +6,7 @@ public class BFSToBST {
 		BFSToBST bfsToBST = new BFSToBST();
 		BinaryTreeNode root = bfsToBST.getBST(new int[] { 7, 4, 12, 3, 6, 8, 1, 5, 10 });
 		BSTBFS bstbfs = new BSTBFS();
-		bstbfs.printBFS(root);
+		bstbfs.printBFS(root); 
 	}
 
 	private BinaryTreeNode getBST(int arr[]) {

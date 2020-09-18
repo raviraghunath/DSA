@@ -1,0 +1,76 @@
+-------------------------Array-------------------------
+BinarySearch.java
+ChangeInForeignCurrency.java
+ClimbingStairs.java
+CoinDenominator.java
+ContiguousSubarrays.java
+DistinctSubsequences.java
+FindAllAnagrams.java
+FourSum.java
+IsPalindrome.java
+KnapSack.java
+KPlacesAway.java
+LargestRectangleInMatrix.java
+LargestSquareInMatrix.java
+LergestRectInHallogram.java
+LongestCommonSubSequence.java
+LongestConsequtiveSubSequenceArray.java
+LongestFibonacciSubsequence.java
+LongestPalindromeInString.java
+LongestPalindromeSubSequence.java
+LongestSubStringWithoutRepeatingChars.java
+MedianTwoSortedArrays.java
+MinCostClimbingStairs.java
+MinEditDistance.java
+NQueens.java
+PalindromePairs.java
+PalindromicSubstrings.java
+PermutationsOfString.java
+RotateMatrix.java
+ShortestPalindrome.java
+ThreeSum.java
+TopKMostFrequentWords.java
+TrappingRainWater.java
+ValidParenthesis.java
+
+-------------------------Tree-------------------------
+BFSToBST.java
+BSTorNot.java
+BSTZigZagPrint.java
+CheckBalanced.java
+FirstCommonAncestor.java
+InOrderToBST.java
+InorderToSpecialBT.java
+InvertBT.java
+LongestConsecutiveBranch.java
+PostOrderToBST.java
+PreOrderToBST.java
+SerializeDeSerializeBT.java
+
+
+-------------------------Tricky-------------------------
+-------------------------Tree Most Importants----------
+MaxPathInBT.java
+KDistFromNode.java
+KthSmallestElementInBST.java
+-------------------------Array Most Importants----------
+SubArrayWithGvnSum.java
+MaxWidthRamp.java
+SwapLongestRepeatedSubString.java
+LIS_LongestIncrSubSequence.java
+-------------------------String Most Importants----------
+StringMinDistance.java
+
+
+-------------------------Tips-------------------------
+Array
+When deal with Array, Think about iteration, sliding window,  2 pointers, stack, binary search, recursion
+
+Tree 
+When you consider leaf, check for both left and right as null.. Don't just check root == null
+
+Recursion
+Memoization : If you want to use caching to store intermediate results, then prefer bottom-up approach, ie. Lower nodes should return their own results and higher nodes
+should use those results to form their own results. So calling of lower nodes is not dependent on any higher level nodes, So we can store lower nodes 
+results in cache and leverage for any higher level nodes.
+Tabulization : One of the simplest , easy and accurate , efficient one. Pls Focus on it.
